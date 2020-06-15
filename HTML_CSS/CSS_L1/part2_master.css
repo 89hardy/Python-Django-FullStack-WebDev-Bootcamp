@@ -1,0 +1,19 @@
+body{
+background-color: gray;
+}
+
+div{
+background-color: yellow;
+border-color: blue;
+border-width: medium;
+border-style: dotted;
+}
+
+p{
+color: green;
+}
+
+span{
+background: red;
+color: black;
+}

@@ -1,0 +1,35 @@
+div{
+color: red;
+}
+
+.firstDiv{
+color: blue;
+}
+
+.secondDiv{
+color: yellow
+}
+
+#singledout{
+color: green;
+text-decoration: line-through;
+}
+
+/* This overrides everything. Check CSS Selectors for more
+
+*{
+}
+*/
+
+h3 + ul{
+border: 4px dotted purple;
+}
+
+li a{
+color: red;
+}
+
+li a[href="www.twitter.com"]{
+color: green;
+border: 5px solid red;
+}
