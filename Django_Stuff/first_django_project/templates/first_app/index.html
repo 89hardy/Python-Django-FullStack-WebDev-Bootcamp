@@ -1,11 +1,16 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>First App</title>
+    <title>Cover Page Image</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
 </head>
 <body>
-<h1>Hello this is index.html!</h1>
-{{ insert_me }}
+
+<h1>This is a picture of PRC Album Cover</h1>
+
+<img src="{% static "images/cover.png" %}" alt="No image here!">
+
 </body>
 </html>
